@@ -1,0 +1,356 @@
+The program state id is : 6
+The stack is: 
+ Ref(int) v
+( aH(v, 20 ) ; ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( aH(v, 20 ) ; ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  )  ) 
+
+The dictionary is :
+v ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ aH(v, 20 )
+( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  ) 
+
+The dictionary is :
+v ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  ) 
+
+The dictionary is :
+v ---> ( 6, int)
+
+The heap is :
+6 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ Ref(Ref(int)) a
+( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  ) 
+
+The dictionary is :
+v ---> ( 6, int)
+
+The heap is :
+6 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  ) 
+
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 0, Ref(int))
+
+The heap is :
+6 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ aH(a, v )
+( print(rH(v )) ; print(rH(rH(a ) ) + 5) ) 
+
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 0, Ref(int))
+
+The heap is :
+6 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( print(rH(v )) ; print(rH(rH(a ) ) + 5) ) 
+
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 7, Ref(int))
+
+The heap is :
+6 ---> 20
+7 ---> ( 6, int)
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ print(rH(v ))
+print(rH(rH(a ) ) + 5)
+
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 7, Ref(int))
+
+The heap is :
+6 ---> 20
+7 ---> ( 6, int)
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ print(rH(rH(a ) ) + 5)
+
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 7, Ref(int))
+
+The heap is :
+6 ---> 20
+7 ---> ( 6, int)
+
+The output is :
+20
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ 
+The dictionary is :
+v ---> ( 6, int)
+a ---> ( 7, Ref(int))
+
+The heap is :
+6 ---> 20
+7 ---> ( 6, int)
+
+The output is :
+20
+25
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ Ref(int) v
+( aH(v, 20 ) ; ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( aH(v, 20 ) ; ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  )  ) 
+
+The dictionary is :
+v ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ aH(v, 20 )
+( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  ) 
+
+The dictionary is :
+v ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( Ref(Ref(int)) a ; ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  )  ) 
+
+The dictionary is :
+v ---> ( 3, int)
+
+The heap is :
+3 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ Ref(Ref(int)) a
+( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  ) 
+
+The dictionary is :
+v ---> ( 3, int)
+
+The heap is :
+3 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( aH(a, v ) ; ( print(rH(v )) ; print(rH(rH(a ) ) + 5) )  ) 
+
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 0, Ref(int))
+
+The heap is :
+3 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ aH(a, v )
+( print(rH(v )) ; print(rH(rH(a ) ) + 5) ) 
+
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 0, Ref(int))
+
+The heap is :
+3 ---> 20
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ ( print(rH(v )) ; print(rH(rH(a ) ) + 5) ) 
+
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 4, Ref(int))
+
+The heap is :
+3 ---> 20
+4 ---> ( 3, int)
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ print(rH(v ))
+print(rH(rH(a ) ) + 5)
+
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 4, Ref(int))
+
+The heap is :
+3 ---> 20
+4 ---> ( 3, int)
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ print(rH(rH(a ) ) + 5)
+
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 4, Ref(int))
+
+The heap is :
+3 ---> 20
+4 ---> ( 3, int)
+
+The output is :
+20
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 6
+The stack is: 
+ 
+The dictionary is :
+v ---> ( 3, int)
+a ---> ( 4, Ref(int))
+
+The heap is :
+3 ---> 20
+4 ---> ( 3, int)
+
+The output is :
+20
+25
+
+The fileTable is :
+
+______________________________________________________________________

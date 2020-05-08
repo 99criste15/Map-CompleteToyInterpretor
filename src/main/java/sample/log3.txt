@@ -1,0 +1,755 @@
+The program state id is : 3
+The stack is: 
+ boolean a
+( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ int v
+( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ a=true
+( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ IF(a) THEN(v=2)ELSE(v=3)
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ v=2
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ print(v)
+
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ 
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ boolean a
+( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ int v
+( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ a=true
+( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ IF(a) THEN(v=2)ELSE(v=3)
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ v=2
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ print(v)
+
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ 
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ boolean a
+( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ int v
+( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ a=true
+( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ IF(a) THEN(v=2)ELSE(v=3)
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ v=2
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ print(v)
+
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ 
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ boolean a
+( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ int v
+( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ a=true
+( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ IF(a) THEN(v=2)ELSE(v=3)
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ v=2
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ print(v)
+
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 3
+The stack is: 
+ 
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ boolean a
+( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( int v ; ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ int v
+( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( a=true ; ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) )  ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ a=true
+( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> false
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( IF(a) THEN(v=2)ELSE(v=3) ; print(v) ) 
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ IF(a) THEN(v=2)ELSE(v=3)
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ v=2
+print(v)
+
+The dictionary is :
+a ---> true
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(v)
+
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ 
+The dictionary is :
+a ---> true
+v ---> 2
+
+The heap is :
+
+The output is :
+2
+
+The fileTable is :
+
+______________________________________________________________________

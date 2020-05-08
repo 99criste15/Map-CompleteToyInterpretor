@@ -1,0 +1,82 @@
+The program state id is : 1
+The stack is: 
+ int v
+v=2
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 1
+The stack is: 
+ v=2
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 1
+The stack is: 
+ 
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 1
+The stack is: 
+ int v
+v=2
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 1
+The stack is: 
+ v=2
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 1
+The stack is: 
+ 
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________

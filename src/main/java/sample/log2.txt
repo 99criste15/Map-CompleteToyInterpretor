@@ -1,0 +1,405 @@
+The program state id is : 2
+The stack is: 
+ int a
+( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ int b
+( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ a=2 + 3 * 5
+( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ b=a + 1
+print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ 
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+18
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ int a
+( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ int b
+( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ a=2 + 3 * 5
+( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ b=a + 1
+print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ 
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+18
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ int a
+( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( int b ; ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ int b
+( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( a=2 + 3 * 5 ; ( b=a + 1 ; print(b) )  ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ a=2 + 3 * 5
+( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 0
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ ( b=a + 1 ; print(b) ) 
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ b=a + 1
+print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ print(b)
+
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 2
+The stack is: 
+ 
+The dictionary is :
+a ---> 17
+b ---> 18
+
+The heap is :
+
+The output is :
+18
+
+The fileTable is :
+
+______________________________________________________________________

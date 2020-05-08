@@ -1,0 +1,1565 @@
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+a ---> ( 0, int)
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+a ---> ( 0, int)
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+a ---> ( 0, int)
+v ---> 10
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+a ---> ( 0, int)
+v ---> 10
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) );
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ wH(a, 30 )
+( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ 
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ v=32
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 10
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 32
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 32
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+a ---> ( 1, int)
+v ---> 32
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ 
+The dictionary is :
+a ---> ( 1, int)
+v ---> 32
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) );
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ wH(a, 30 )
+( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ 
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ v=32
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ 
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) );
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ wH(a, 30 )
+( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ 
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ v=32
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ int v
+( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( Ref(int) a ; ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ Ref(int) a
+( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( v=10 ; ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ v=10
+( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 0
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( aH(a, 22 ) ; ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ aH(a, 22 )
+( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 0, int)
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) ); ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ fork(( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) );
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( wH(a, 30 ) ; ( v=32 ; ( print(v) ; print(rH(a )) )  )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ wH(a, 30 )
+( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 22
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( v=32 ; ( print(v) ; print(rH(a )) )  ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 10
+The stack is: 
+ 
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ v=32
+( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 10
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ ( print(v) ; print(rH(a )) ) 
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(v)
+print(rH(a ))
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ print(rH(a ))
+
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 11
+The stack is: 
+ 
+The dictionary is :
+v ---> 32
+a ---> ( 1, int)
+
+The heap is :
+1 ---> 30
+
+The output is :
+10
+30
+32
+30
+
+The fileTable is :
+
+______________________________________________________________________

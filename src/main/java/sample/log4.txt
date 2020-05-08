@@ -1,0 +1,1343 @@
+The program state id is : 4
+The stack is: 
+ String varf
+( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ varf=test.in
+( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ open (varf)
+( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ int varc
+( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ 
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ String varf
+( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ varf=test.in
+( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ open (varf)
+( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ int varc
+( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ 
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ String varf
+( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ varf=test.in
+( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ open (varf)
+( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ int varc
+( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ 
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ String varf
+( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ varf=test.in
+( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ open (varf)
+( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ int varc
+( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ 
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ String varf
+( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( varf=test.in ; ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ varf=test.in
+( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> 
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( open (varf) ; ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ open (varf)
+( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( int varc ; ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ int varc
+( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; ( read (varf, varc) ; ( print(varc) ; close (varf) )  )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( read (varf, varc) ; ( print(varc) ; close (varf) )  ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ read (varf, varc)
+( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 15
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ ( print(varc) ; close (varf) ) 
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ print(varc)
+close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ close (varf)
+
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+test.in
+
+______________________________________________________________________
+The program state id is : 4
+The stack is: 
+ 
+The dictionary is :
+varf ---> test.in
+varc ---> 50
+
+The heap is :
+
+The output is :
+15
+50
+
+The fileTable is :
+
+______________________________________________________________________

@@ -1,0 +1,1176 @@
+The program state id is : 9
+The stack is: 
+ int v
+( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=4
+( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ 
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ int v
+( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=4
+( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ 
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ int v
+( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=4 ; ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) )  ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=4
+( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( while( v > 0 ) { ( v=v - 1 ; print(v) )  } ; print(v) ) 
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 4
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 3
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 2
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ ( v=v - 1 ; print(v) ) 
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ v=v - 1
+print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 1
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ while( v > 0 ) { ( v=v - 1 ; print(v) )  }
+print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ print(v)
+
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+
+The fileTable is :
+
+______________________________________________________________________
+The program state id is : 9
+The stack is: 
+ 
+The dictionary is :
+v ---> 0
+
+The heap is :
+
+The output is :
+3
+2
+1
+0
+0
+
+The fileTable is :
+
+______________________________________________________________________
